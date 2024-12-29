@@ -1,12 +1,14 @@
-import static org.junit.jupiter.api.Assertions.*;
-
+import org.junit.Assert;
 import org.junit.jupiter.api.Test;
+
 
 class StringCalculatorTest {
 
 	@Test
 	public void String_Calculator_Test() {
-		fail("Not yet implemented");
+		StringCalculator cal = new StringCalculator();
+		Assert.assertEquals(6, cal.add("1,2,3"), 0);
+				
 	}
 
 }
